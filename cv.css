@@ -1,5 +1,6 @@
 body{
-    background-color: antiquewhite;
+    background: linear-gradient(to bottom, pink, white);
+    box-shadow: 0 0 5px black;
 }
 .titulo {
    font-family: Arial, Helvetica, sans-serif;
@@ -10,6 +11,8 @@ body{
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: brown;
+    column-count: 2;
+    column-gap: 10px;
 }
 img{
     display: flex;
@@ -17,4 +20,8 @@ img{
     border-radius: 4px;
     padding: 5px;
     width: 30%;
+}
+.item{
+    column-count: 2;
+    column-gap: 20px;
 }
